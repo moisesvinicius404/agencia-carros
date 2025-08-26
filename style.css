@@ -1,0 +1,142 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e1beff;
+    
+}
+
+header {
+    background-color: #4021da;
+    padding: 30px;
+    height: 150px;
+    position: relative;
+    z-index: 1;
+}
+
+
+header h1 {
+  font-weight: bold;
+  text-shadow: 1px 2px 1px #2f1c41;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:white;
+}
+
+.container {
+    background: linear-gradient(to right, #f3e8ff, #ffffff, #ffffff);
+    width: 600px;
+    height: 655px;
+    padding: 20px;
+    border-radius: 5px;
+
+    
+    margin: -60px auto 0 auto;
+    position: relative;
+    z-index: 2; 
+}
+
+
+form {
+    margin-left: 30px;
+}
+
+label {
+    font-size: 20px;
+    color:#4021da;
+    font-weight: bolder;
+    
+}
+
+input {
+  width: 230px;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #4021da;
+  background-color: white;
+  margin-top: 6px;
+}
+
+.estilo-foto {
+    border: none;
+}
+
+textarea {
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 10px 10px;
+    border: 1px solid #4021da;
+}
+
+
+button {
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #4021da;
+    background: transparent;
+    color: #4021da;
+    font-size: 17px;
+}
+
+button:hover {
+    color:white;
+    background-color: #4021da;
+}
+
+
+@media (max-width: 900px) {
+    .container {
+        width: 80%; 
+        margin: -50px auto 0 auto; 
+        height: auto; 
+    }
+
+    input, textarea {
+        width: 90%; 
+    }
+
+    form {
+        margin-left: 10px; 
+    }
+
+    button {
+        width: 100%; 
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    header h1 {
+        font-size: 18px; 
+        text-align: center;
+    }
+
+    .container {
+        width: 95%;
+        margin: -40px auto 0 auto;
+        padding: 15px;
+    }
+
+    label {
+        font-size: 16px; 
+    }
+
+    input, textarea {
+        width: 100%; 
+    }
+
+    button {
+        font-size: 16px;
+        height: 35px;
+    }
+}
+

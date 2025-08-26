@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Agência Carros</title>
+</head>
+<body>
+    <header>
+        <h1>Sua Agência Carros Em Um Só Lugar.</h1>
+    </header>
+
+    <div class="container">
+        <form action="#" id="formCadastro">
+            <label for="modelo">Modelo Carro:</label><br>
+            <input type="text" id="modeloCarro" placeholder="Digite o modelo do carro" required><br>
+
+            <label for="marca">Marca Carro:</label><br>
+            <input type="text" id="marcaCarro" placeholder="Digite a marca do carro" required><br>
+
+            <label for="ano">Ano:</label><br>
+            <input type="number" id="anoCarro" placeholder="Digite o ano do carro" required><br>
+
+            <label for="preco">Preço:</label><br>
+            <input type="number" id="precoCarro" placeholder="Digite o preço do carro" required><br><br>
+
+            <label for="descricao">Descrição:</label><br>
+            <textarea name="descricao" id="descricaoCarro" cols="50" rows="7" placeholder="Descreva sobre seu carro" required></textarea><br><br>
+            
+            <label for="fotoCarro">Foto Carro:</label><br><br>
+            <input type="file" name="foto" accept="image/*" class="estilo-foto"><br><br>
+
+            <button type="submit" id="btn-cadastro">Cadastrar</button>
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
